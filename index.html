@@ -1,25 +1,53 @@
 
 <!DOCTYPE html>
-<head lang="<?php print_r($loc); ?>">
+<head lang="en">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="/deploy/stylesheets/screen.css" media="screen,projection" type="text/css" />
-  <link rel="stylesheet" href="/deploy/stylesheets/print.css" media="print" type="text/css"/>
+  <link rel="stylesheet" href="/deploy/stylesheets/flexicard.css" media="screen,projection" type="text/css" />
   <!--[if IE]>
   <link rel="stylesheet" href="/stylesheets/ie.css" media="screen, projection" type="text/css">
   <![endif]-->
   <script src="deploy/lib/all.js"></script>
-  <script src="deploy/scripts/app.js"></script>
-  <link href="deploy/stylesheets/screen.css" rel="stylesheet">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="js/app/flexitab.js"></script>
+  <script src="js/app/flexicard.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css"> -->
-  <link rel="stylesheet" href="stylesheets/screen.css">
+  <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   </head>
 
-  <body>
-    Ljalja
+  <body>  
+  <div class="row">
+    <div class="col l3 m6 s12">
+        <div class="flexi-card" data-flexicard-round>
 
+        </div>
+    </div>
+    <div class="col l3 m6 s12">
+        <div class="flexi-card-second" data-flexicard-round>
+          <div class="flexi-card-box">
+            <div class="flexi-card-title">
+              Paris</div>
+            <div class="flexi-card-content">
+             Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc. Just make sure you leave some time to wander the city’s grand boulevards and eat in as many cafes, bistros and brasseries as possible. And don’t forget the shopping—whether your tastes run to Louis Vuitton or Les Puces (the flea market), you can find it here.   
+            </div>
+          </div>
+          <div class="flexi-card-tabs">
+               <div class="flexi-card-tab">
+                 <i class="fa fa-user"></i>
+                  <div class="flexi-card-tab-content">
+                    <div class="flexi-card-close-button">
+                      <i class="fa fa-times"></i>
+                  </div>
+                    <div class="flexi-card-content-title">TItle 1</div>
+                    <div class="flexi-card-content-content">content1</div>
+                </div>
+               </div></div>
+        </div>
+    </div>
+  </div>
   </body>
   </html>
 
