@@ -285,7 +285,6 @@ jQuery(document).ready(function(){
 						color: '#fff',
 					},
 					element: $('<div class="flexi-card-box">'),
-				 	link: '#',
 					attr:{
 					 	title:'Rome',
 						content: 'Modern and old, past and present go side by side, all the time. Whether you are in Rome for 3 days, 3 weeks or 3 months, be prepared to step into the world\'s biggest open air museum. You can decide to follow the typical tourist paths or you can be luck or brave enough to go off the usual tracks. One way or the other, Rome will seduce you and it will hardly leave you indifferent. It will surprise you, like a beautiful middle aged woman that has still plenty to offer and whose beauty is just been merely blurred by time passing by.',
@@ -327,13 +326,13 @@ jQuery(document).ready(function(){
 								'tabs':[
 								{
 									'placeholder' : '<i class="fa fa-user-plus"></i>',
-									'title' : 'TItle 1111',
+									'title' : 'title1',
 									'content' : 'content1',
 								},
 								{
 									'placeholder' : '<i class="fa fa-close"></i>',
-									'title' : 'TItle 222',
-									'content' : 'content1',
+									'title' : 'title2',
+									'content' : 'content2',
 								},
 								],
 						},
