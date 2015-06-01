@@ -1,4 +1,4 @@
-# <h1>Flexicard Plugin</h1>
+# Flexicard Plugin
 
 
 Flexicard Plugin create responive and personalised cards component. 
