@@ -1,6 +1,8 @@
 # Flexicard Plugin 
 
-//description
+// description
+// Flexicard Plugin create responive and personalised cards component.
+// 
 
 
 ## Dependencies and Libraries 
@@ -12,7 +14,8 @@
 
 ## Usage
 
-
+//You can either create the card from JS or using HTML mark-up.
+// You can dynamically from JS tabs for existing card.
 
 ```javascript
 
