@@ -1,9 +1,8 @@
-# Flexicard Plugin 
+# <h1>Flexicard Plugin</h1>
 
 
- Flexicard Plugin create responive and personalised cards component.
-
- 
+Flexicard Plugin create responive and personalised cards component. 
+Tab animation based on materialised approach.
 
 
 ## Dependencies and Libraries 
@@ -16,7 +15,12 @@
 ## Usage
 
 You can either create the card from JS or using HTML mark-up.
- You can dynamically from JS tabs for existing card.
+You can dynamically from JS tabs for existing card.
+Card key contains all data related to the card.
+Css  attributes are split in 3 categories, card css itself, title section and tab section.
+To set the card content, use 'attr' data.
+Tabs are specified in tabs array.
+Basic usage is here:
 
 ```javascript
 $('.flexi-card').flexiCard({
