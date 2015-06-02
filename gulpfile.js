@@ -6,20 +6,20 @@ var gulp = require('gulp'),
 gulp.task('concat-src',function(){
 	gulp.src(['./js/app/*.js',  './js/app/**/*.js'])
 		.pipe(concat('flexicard.js'))
-		.pipe(gulp.dest('./deploy/scripts'))
+		.pipe(gulp.dest('./dist/scripts'))
 		.pipe(concat('flexicard.min.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('./deploy/scripts'));
+		.pipe(gulp.dest('./dist/scripts'));
 });
 
-gulp.task('concat-lib', function(){
-	gulp.src(['./js/lib/*.js','./js/lib/**/*.js'])
-		.pipe(concat('all.js'))
-		.pipe(gulp.dest('./deploy/lib'))
-});
+// gulp.task('concat-lib', function(){
+// 	gulp.src(['./js/lib/*.js','./js/lib/**/*.js'])
+// 		.pipe(concat('all.js'))
+// 		.pipe(gulp.dest('./'))
+// });
 
 gulp.task('watch', function(){
-	gulp.watch('./js/app/*.js', ['concat-src','concat-lib']);
+	gulp.watch('./js/app/*.js', ['concat-src']);
 });
 
-gulp.task('default', ['watch', 'concat-src', 'concat-lib']);
+gulp.task('default', ['watch', 'concat-src']);
