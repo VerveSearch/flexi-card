@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <head lang="en">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="/dist/stylesheets/flexicard.css" media="screen,projection" type="text/css" />
   <!--[if IE]>
   <link rel="stylesheet" href="/stylesheets/ie.css" media="screen, projection" type="text/css">
   <![endif]-->
-  <script src="/lib/jquery.js"></script>
-  <script src="/dist/scripts/flexicard.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="bootstrap.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
@@ -14,22 +12,21 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
+  <link rel="stylesheet" href="/dist/stylesheets/flexicard.css" media="screen,projection" type="text/css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  <script src="/lib/angular.min.js"></script> 
+  <script src="/dist/scripts/flexicard.min.js"></script> 
   </head>
-
-  <body>  
-  <div class="row">
-    <div class="col l3 m6 s12">
-        <div class="flexi-card" data-flexicard-round>
-
-        </div>
-    </div>
-    <div class="col l3 m6 s12">
-        <div class="flexi-card-second" data-flexicard-round>
+  <body ng-app="FlexiCard">  
+    <div class="row">
+      <div class="flexi-card col l3 m3 s12" data-flexicard-round>
+      </div>
+      <div class="flexi-card-second col l3 m3 s12" data-flexicard-round>
+        <div class="flexi-card-wrapper">
           <div class="flexi-card-box">
             <div class="flexi-card-title">
               Paris</div>
-            <div class="flexi-card-content">
+            <div class="flexi-card-content">  
              Everyone who visits Paris for the first time probably has the same punchlist of major attractions to hit: The Louvre, Notre Dame, The Eiffel Tower, etc. Just make sure you leave some time to wander the city’s grand boulevards and eat in as many cafes, bistros and brasseries as possible. And don’t forget the shopping—whether your tastes run to Louis Vuitton or Les Puces (the flea market), you can find it here.   
             </div>
           </div>
@@ -44,9 +41,10 @@
                     <div class="flexi-card-content-content">content1</div>
                 </div>
                </div></div>
-        </div>
+        </div>         
+      </div>
+     <div flexi-card class="col l3 m3 s12"></div>
     </div>
-  </div>
   </body>
-  </html>
+</html>
 

@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 						fontSize : '13px',
 						color : '#5b5b5b',
 						background: '#fff',
-
+						//padding: '0px 20px',
 					},
 				  	tabStyle:{
 						background: "#fff",
@@ -23,7 +23,8 @@ jQuery(document).ready(function(){
 					 	title:'Rome',
 						content: 'Modern and old, past and present go side by side, all the time. Whether you are in Rome for 3 days, 3 weeks or 3 months, be prepared to step into the world\'s biggest open air museum. You can decide to follow the typical tourist paths or you can be luck or brave enough to go off the usual tracks. One way or the other, Rome will seduce you and it will hardly leave you indifferent. It will surprise you, like a beautiful middle aged woman that has still plenty to offer and whose beauty is just been merely blurred by time passing by.',
 					},
-					'tabs':[{
+					'tabs':[
+							{
 								'placeholder' : '<div ><img src="/example/coloseo.jpg" class="circle" style="width: 1.5em; height: 1.5em;"></div>',
 								'title' : 'User data',
 								'content' : 'Random content about the user',
@@ -35,7 +36,7 @@ jQuery(document).ready(function(){
 							 
 							}
 						],
-				},
+					},
 	});
 
   	$('.flexi-card-second').flexiCard({
