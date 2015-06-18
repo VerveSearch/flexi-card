@@ -7,9 +7,7 @@ Tab opening animation is based on material design approach. Card has variable he
 ## Dependencies and Libraries 
 
 1. jquery.min.js
-2. materialise.min.css
-3. materialise.min.js
-4. font-awesome.min.css
+2. angular.js
 
 ## Usage
 
@@ -63,8 +61,17 @@ $('.flexi-card').flexiCard({
 
 
 ```
-## Version
+To use as a directive, just include use <div flexi-card></div>.
+
+To update the tabs dinamically, 
+
+$E.flexiCard('get').updateTabs(tabs), where tabs -> object from the example bellow.
+
+
+
+## Version 0.1.0
 
 This version is ready to be used.
+Added angular flexiCard directive
 Expect future optimisation.
 
